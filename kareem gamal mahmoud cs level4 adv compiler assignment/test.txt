@@ -1,0 +1,29 @@
+begin
+integer x1,x2
+integer z
+
+proc get (integer x) = read x
+
+
+begin
+boolean x3
+proc c (boolean z) = if z then read x1 end if
+
+while x3 do
+x2 := x2 + x1 * x2 / x2
+end while
+
+end;
+
+call get(x1);
+if x3 then
+while x1 >= 0 do
+x1 := x1 - 11;
+read z
+end while;
+write x1 + z
+end if;
+
+x2 := x1
+end
+$

@@ -1,0 +1,11 @@
+begin
+integer x,y,w
+boolean z
+proc tarek= read x
+proc kamel(integer i,j;integer k,l;boolean m)= y:=x+i*j+k*k/2
+call tarek;
+call kamel(x,y,x,w,z);
+if x>y then w:=x+y end if;
+write z
+end
+

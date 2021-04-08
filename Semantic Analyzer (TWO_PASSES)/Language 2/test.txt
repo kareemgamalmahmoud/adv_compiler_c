@@ -1,0 +1,10 @@
+program tarek is 
+int x,char y,const int z=5,bool w
+begin
+read x;
+write z;
+if true then y:=character end if
+end
+
+
+
